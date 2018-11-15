@@ -1,0 +1,38 @@
+{
+  "name": "fastify-react-with-next-css",
+  "version": "0.1.0",
+  "description": "Example how to use fastify-react with @zeit/next-css",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "coverage": "tap test.js --cov --no-browser --coverage-report html",
+    "lint": "standard --fix",
+    "test": "standard --fix && tap test.js --cov --no-browser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lependu/fastify-react-with-next-css.git"
+  },
+  "keywords": [
+    "fastify-react",
+    "next.js"
+  ],
+  "author": "Ákos Kovács <lependu@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lependu/fastify-react-with-next-css/issues"
+  },
+  "homepage": "https://github.com/lependu/fastify-react-with-next-css#readme",
+  "devDependencies": {
+    "standard": "^12.0.0",
+    "tap": "^12.0.1"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "fastify": "^1.13.0",
+    "fastify-react": "git+https://git@github.com/fastify/fastify-react.git#master",
+    "next": "^7.0.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}
